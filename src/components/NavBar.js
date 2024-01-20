@@ -12,7 +12,6 @@ const NavBar = () => {
       ...auth,
       user: searchValue,
     });
-    navigate("/");
     console.log(auth.user);
   };
 
